@@ -8,6 +8,7 @@
 <?php
 if(isset($_POST["text_name"]))
 {
+//又增加
 	//echo $_POST["text_name"].$_POST["text_age"].$_POST["text_num"];
 	$link = mysql_connect("127.0.0.1", "root", "");
 	mysql_select_db("test01_data", $link);
