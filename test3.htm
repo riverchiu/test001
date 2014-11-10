@@ -1,0 +1,21 @@
+<form action="test2.htm" method="post">
+<title>Test3</title>
+
+Name:
+<{foreach item=item1 from=$array1}>
+<{$item1|upper}>
+<{/foreach}>
+(big word)
+</br>
+Age:
+<{foreach item=item2 from=$array2}>
+<{$item2}>
+<{/foreach}>
+</br>
+Phone Num:
+<{foreach item=item3 from=$array3}>
+<{$item3}>
+<{/foreach}>
+</br>
+<input type="submit" value="Back"/>
+</form>
