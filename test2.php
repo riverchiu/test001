@@ -29,7 +29,7 @@ else
 {
 	if(!isset($_POST["btn_show"]))
 	{
-		echo "data have null";
+		echo "data have null ";
 		include "test2.htm";
 		return;
 	}
