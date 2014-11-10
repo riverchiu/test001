@@ -3,7 +3,6 @@
 
 if(isset($_POST["text_name"])!="" && $_POST["text_name"]!="")
 {
-	//測試用註解
 	//echo $_POST["text_name"].$_POST["text_age"].$_POST["text_num"];
 	if(isset($_POST["btn_save"]))
 	{	if($_POST["text_age"]=="" || $_POST["text_num"]=="")
